@@ -44,6 +44,7 @@ public class Main
                     done = false;
 
                     System.out.print("_______________________________\n");
+
                     do {
                         roll++;
                         die1 = rand.nextInt(6) + 1; // Random number between 1 and 6
@@ -74,7 +75,6 @@ public class Main
                 playAgain = false;
                 System.out.println("Thanks for playing!");
             }
-
         } while (playAgain);
     }
 }
